@@ -1,0 +1,7 @@
+streamlit
+openai>=1.0
+pandas
+matplotlib
+python-docx
+beautifulsoup4
+requests
