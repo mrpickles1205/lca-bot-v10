@@ -54,7 +54,7 @@ def generate_ai_section(prompt, product):
         return f"[Fallback] This section would normally be generated using AI for: {prompt} on {product}."
     try:
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4-turbo",
             messages=[
                 {"role": "system", "content": "You are a sustainability analyst writing ISO-style LCA reports."},
                 {"role": "user", "content": f"Write the '{prompt}' section for a life cycle assessment of a {product}."}
