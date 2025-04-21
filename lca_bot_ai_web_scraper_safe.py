@@ -128,7 +128,7 @@ def create_report(product, df, charts, web_data, ai_sections):
     doc.save(filename)
     return filename
 
-st.title("🌿 ISO LCA Bot — AI Enhanced + Web Research")
+st.title("🌿 ISO LCA Bot")
 
 product = st.text_input("Enter a product name:", "Electric Toothbrush")
 
